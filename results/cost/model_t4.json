@@ -1,0 +1,11 @@
+{
+ "card": "Tesla T4",
+ "sequence": "ADKH",
+ "total_ns": 1000.0,
+ "n_traj": 100,
+ "setup_s": 0.6375691890716553,
+ "dynamics_s": 5.107339382171631,
+ "emission_build_s": 1.68214750289917,
+ "total_s": 7.427066802978516,
+ "model_gpu_s_per_ns": 0.007427066802978516
+}

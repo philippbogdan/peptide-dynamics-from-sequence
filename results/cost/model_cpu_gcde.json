@@ -1,0 +1,9 @@
+{
+ "sequence": "GCDE",
+ "total_ns": 1000.0,
+ "trajectories": 1,
+ "dynamics_s": 0.7482311725616455,
+ "total_s": 1.785102128982544,
+ "device": "Apple M4 CPU (one desktop machine, default PyTorch threads)",
+ "includes": "bundle loading, rate table, dynamics, torsion emission, heavy-atom building and writing XTC"
+}

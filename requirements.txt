@@ -1,0 +1,7 @@
+numpy==2.5.4
+scipy==1.18.1
+torch==2.15.0
+deeptime==0.4.5
+mdtraj==1.11.2
+peptidebuilder==1.1.0
+biopython==1.88

@@ -1,0 +1,120 @@
+{
+ "peptide": "TAPF",
+ "ns_per_replica": 2495.0,
+ "state_rule": {
+  "best": [
+   0.762992805255753,
+   0.5992847573061849,
+   0.38609854379270186,
+   0.37389757496279796,
+   0.3438182503932285,
+   0.30772520103119033,
+   0.2564621315803524,
+   0.22556607264175374
+  ],
+  "n_macro": 2,
+  "chosen": [
+   200,
+   2,
+   0.5,
+   0.0,
+   2.0
+  ]
+ },
+ "states_ok": true,
+ "pi": [
+  0.006195346971519697,
+  0.9938046530284802
+ ],
+ "ts": [
+  0.6895831544090999
+ ],
+ "main": [
+  1
+ ],
+ "mfpt": [
+  [
+   0.0,
+   2.1296104791451222
+  ],
+  [
+   341.6139262323377,
+   0.0
+  ]
+ ],
+ "equal_footing": {
+  "main_states": [
+   1
+  ],
+  "n_states": 2,
+  "mfpt_pairs": [],
+  "mfpt_worst_factor": 1.0,
+  "pass_rates": true,
+  "f_rms_kT": 0.0,
+  "tv": 0.006261532290413087,
+  "pass_free_energy": true,
+  "pass_tv": true,
+  "relaxation": [
+   [
+    0,
+    0.002895296546021679,
+    0.7609738751101508,
+    0.9961952747121541
+   ]
+  ],
+  "slowest_rel_err": 0.9961952747121541,
+  "others_worst_rel_err": 0.0,
+  "pass_relaxation": false,
+  "pass_all": false
+ },
+ "control_shuffled": {
+  "main_states": [
+   1
+  ],
+  "n_states": 2,
+  "mfpt_pairs": [],
+  "mfpt_worst_factor": 1.0,
+  "pass_rates": true,
+  "f_rms_kT": 0.0,
+  "tv": 8.02099426549293e-06,
+  "pass_free_energy": true,
+  "pass_tv": true,
+  "relaxation": [
+   [
+    0,
+    0.002895296546021679,
+    0.6895831544090999,
+    0.9958013815628912
+   ]
+  ],
+  "slowest_rel_err": 0.9958013815628912,
+  "others_worst_rel_err": 0.0,
+  "pass_relaxation": false,
+  "pass_all": false
+ },
+ "control_doubled_clock": {
+  "main_states": [
+   1
+  ],
+  "n_states": 2,
+  "mfpt_pairs": [],
+  "mfpt_worst_factor": 1.0,
+  "pass_rates": true,
+  "f_rms_kT": 0.0,
+  "tv": 0.0,
+  "pass_free_energy": true,
+  "pass_tv": true,
+  "relaxation": [
+   [
+    0,
+    1.3791663088181998,
+    0.6895831544090999,
+    1.0
+   ]
+  ],
+  "slowest_rel_err": 1.0,
+  "others_worst_rel_err": 0.0,
+  "pass_relaxation": false,
+  "pass_all": false
+ }
+}

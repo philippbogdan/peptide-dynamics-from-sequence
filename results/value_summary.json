@@ -1,0 +1,80 @@
+{
+  "sources": [
+    "headline.json:cost",
+    "headline.json:trade",
+    "cost/model_cpu_gcde.json"
+  ],
+  "method": "Arithmetic on stored costs; earliest sampled MD length with error <= the final model error; no interpolation.",
+  "per_ns_cost_ratio_formula": "cost.md_gpu_s_per_ns / cost.model_gpu_s_per_ns",
+  "estimated_per_ns_cost_ratio": 2901.7524247758115,
+  "model_length_ns": 2490,
+  "estimated_model_gpu_s": 18.493396339416503,
+  "model_errors": {
+    "mfpt_worst_factor": 2.5438790790272976,
+    "f_rms_kT": 0.339088756400898,
+    "tv": 0.04894830534982601,
+    "slowest_rel_err": 0.2993066587430666
+  },
+  "earliest_md_match_by_metric": {
+    "f_rms_kT": null,
+    "mfpt_worst_factor": {
+      "metrics": [
+        "mfpt_worst_factor"
+      ],
+      "md_length_ns": 1000,
+      "md_gpu_s": 21551.509104514844,
+      "md_errors": {
+        "mfpt_worst_factor": 2.353882304372118
+      },
+      "model_errors": {
+        "mfpt_worst_factor": 2.5438790790272976
+      },
+      "estimated_cost_ratio": 1165.3624195886796
+    },
+    "tv": {
+      "metrics": [
+        "tv"
+      ],
+      "md_length_ns": 300,
+      "md_gpu_s": 6465.452731354453,
+      "md_errors": {
+        "tv": 0.045940898653421484
+      },
+      "model_errors": {
+        "tv": 0.04894830534982601
+      },
+      "estimated_cost_ratio": 349.60872587660384
+    },
+    "slowest_rel_err": null
+  },
+  "earliest_md_match_passage_and_population": {
+    "metrics": [
+      "mfpt_worst_factor",
+      "tv"
+    ],
+    "md_length_ns": 2490,
+    "md_gpu_s": 53663.25767024196,
+    "md_errors": {
+      "mfpt_worst_factor": 1.721571361804847,
+      "tv": 0.030700852835838066
+    },
+    "model_errors": {
+      "mfpt_worst_factor": 2.5438790790272976,
+      "tv": 0.04894830534982601
+    },
+    "estimated_cost_ratio": 2901.752424775812
+  },
+  "earliest_md_match_all_metrics": null,
+  "unmatched_metric_meaning": "No MD length on the saved grid reaches this model error against half B; this is not a comparison with converged MD.",
+  "cpu_sequence": "GCDE",
+  "cpu_total_ns": 1000.0,
+  "cpu_total_s": 1.785102128982544,
+  "readme_rounded_values": {
+    "estimated_per_ns_cost_ratio": 2900.0,
+    "estimated_passage_time_cost_ratio": 1200.0,
+    "estimated_population_cost_ratio": 350.0,
+    "estimated_model_gpu_s": 18.5,
+    "md_passage_time_gpu_s": 21600.0,
+    "cpu_total_s": 1.8
+  }
+}

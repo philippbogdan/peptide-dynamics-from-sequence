@@ -1,0 +1,6 @@
+{"pdb": "HEAV.pdb", "nproc": 1, "platform": "CUDA", "per": [1017], "agg": 1017, "card": "Tesla T4"}
+{"pdb": "HEAV.pdb", "nproc": 4, "platform": "CUDA", "per": [737, 737, 737, 737], "agg": 2949, "card": "Tesla T4"}
+{"pdb": "HEAV.pdb", "nproc": 8, "platform": "CUDA", "per": [495, 495, 494, 494, 495, 496, 495, 494], "agg": 3959, "card": "Tesla T4"}
+{"pdb": "CIPQ.pdb", "nproc": 1, "platform": "CUDA", "per": [1090], "agg": 1090, "card": "Tesla T4"}
+{"pdb": "CIPQ.pdb", "nproc": 4, "platform": "CUDA", "per": [746, 747, 746, 747], "agg": 2986, "card": "Tesla T4"}
+{"pdb": "CIPQ.pdb", "nproc": 8, "platform": "CUDA", "per": [501, 501, 501, 501, 501, 502, 501, 501], "agg": 4009, "card": "Tesla T4"}
