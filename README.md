@@ -6,7 +6,7 @@ Molecular dynamics (MD) simulates atoms moving under physical forces, taking tin
 
 Independent 50 ns paths of GCDE from MD and the sequence model, shown at the same scale and playback rate; click for the MP4. In a separate measurement, generating a full microsecond took **1.8 seconds on a desktop CPU**, including coordinates and file writing.
 
-Generate motion for a four-residue peptide from its sequence using an **estimated 2,900 times less GPU time per nanosecond** than molecular dynamics (MD): 0.0074 versus 21.6 GPU-seconds on one T4. No simulation frames or starting structure of that peptide are needed.
+The estimated cost on one T4 is 0.0074 GPU-seconds per nanosecond for the model, against 21.6 for MD. No simulation frames or starting structure of that peptide are needed.
 
 ![Four errors against estimated GPU time: free energy and worst passage time above, population and slowest relaxation below, with infinite errors in separate strips above the top panels.](figures/error-cost.png)
 
