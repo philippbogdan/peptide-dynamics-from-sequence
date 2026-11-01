@@ -1,10 +1,12 @@
 # Peptide dynamics from sequence
 
+Molecular dynamics (MD) simulates atoms moving under physical forces, taking tiny time steps that make even short trajectories expensive. The reference trajectories here use OpenMM with the Amber14 force field (`amber14-all.xml`, ff14SB for proteins), OBC1 generalised Born implicit solvent (`implicit/obc1.xml`, without individual water molecules) and Langevin dynamics at 310 K. A tetrapeptide is a chain of four amino acids; its dynamics describe the shapes it takes, how much time it spends in each (their relative free energies) and how fast it moves between them. This model generates those dynamics from sequence alone using an **estimated 2,900 times less GPU time per nanosecond** than MD.
+
+[![GCDE heavy atoms from MD and the sequence model at the same scale, with Cys phi traces over 50 ns; the model briefly occupies positive phi.](figures/gcde-motion.gif)](figures/gcde-motion.mp4)
+
+Independent 50 ns paths of GCDE from MD and the sequence model, shown at the same scale and playback rate; click for the MP4. In a separate measurement, generating a full microsecond took **1.8 seconds on a desktop CPU**, including coordinates and file writing.
+
 Generate motion for a four-residue peptide from its sequence using an **estimated 2,900 times less GPU time per nanosecond** than molecular dynamics (MD): 0.0074 versus 21.6 GPU-seconds on one T4. No simulation frames or starting structure of that peptide are needed.
-
-[![GCDE heavy atoms from MD and the sequence model at the same scale, with Cys phi traces over 50 ns; the model briefly occupies positive phi.](figures/gcde-motion.png)](figures/gcde-motion.mp4)
-
-Independent 50 ns paths of GCDE, shown at the same scale and playback rate; click to play. In a separate measurement, generating a full microsecond took **1.8 seconds on a desktop CPU**, including coordinates and file writing.
 
 ![Four errors against estimated GPU time: free energy and worst passage time above, population and slowest relaxation below, with infinite errors in separate strips above the top panels.](figures/error-cost.png)
 
