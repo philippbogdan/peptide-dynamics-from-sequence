@@ -22,11 +22,11 @@ Colour shows model probability per bin; solid, dashed and dotted MD contours tar
 
 [Evidence, definitions and limitations](docs/evidence.md) · [Result files](results/README.md) · [Reproduce the numbers](REPRODUCE.md). MD data: [ManyPeptidesMD](data/README.md).
 
-## What this does not show
+## Assumptions made
 
-- Independent validation: these 13 public test tetrapeptides also chose the model variant. The evidence covers implicit solvent at 310 K only.
-- Exact kinetics: the slowest relaxation is at least twice too fast in 5 to 6 peptides per sample. The four samples each contain 5 µs; their spread and the noisy MD halves limit the comparison.
-- A universal speed-up: the 1,200-fold comparison matches one error measure. GPU timing uses a same-size sibling bundle, excludes analysis and scales with generated length; the CPU result is one run for one peptide.
+- The physical reference is Amber14 with OBC1 implicit solvent at 310 K.
+- Accuracy comparisons use MD-defined states and finite-trajectory Markov estimates as the reference; [sampling and model-selection limits](docs/evidence.md#samples-and-the-yardstick) apply.
+- GPU cost estimates assume the same-size sibling bundle's timing transfers to this model and scales linearly with generated length, excluding analysis.
 
 ## How to use it
 

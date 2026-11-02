@@ -24,6 +24,8 @@ Three accepted state models are omitted from model evaluation: KKAP, QAKR and SH
 
 Each of four independent model samples contains 200 paths of 25 ns per peptide, or 5 µs, with equilibrium starts from the model's continuous-time generator. The sample medians of free-energy error are 0.33, 0.39, 0.36 and 0.26 kT; the MD-half median is 0.35 kT. CIPQ has the largest free-energy error in every sample; NCFG varies from 0.05 to 0.39 kT. In the accuracy chart's upper panel, small orange circles show each sample and thin vertical lines span the four samples for each peptide; open diamonds show the MD-half comparison. The ranges show sampling spread, not confidence intervals or generalisation uncertainty. Being near the halves' disagreement does not demonstrate equivalence to MD.
 
+The slowest relaxation is at least twice too fast in 5 to 6 peptides per sample.
+
 No reference-half pair meets every tolerance among the 16 accepted state models. The four model samples meet every tolerance for 0, 0, 1 and 0 of the 13 peptides. Shuffling the reference frames or doubling its clock also fails the tolerances. The yardstick detects temporal distortion but does not supply precise ground truth at every timescale.
 
 ## Definitions
