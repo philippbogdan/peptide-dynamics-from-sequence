@@ -1,0 +1,411 @@
+{
+ "machine": "Apple M4",
+ "numpy": "2.4.6",
+ "threads": 1,
+ "what": "one trajectory of 1 microsecond, 100,000 frames of heavy atoms",
+ "median_seconds": 6.7219999999999995,
+ "fastest_seconds": 1.497,
+ "slowest_seconds": 72.704,
+ "peptides": [
+  {
+   "name": "ARIP",
+   "joint_configurations": 17496,
+   "heavy_atoms": 32,
+   "tabulated": true,
+   "rates_and_starts": 1.377,
+   "dynamics": 0.64,
+   "atoms": 3.526,
+   "total": 5.543
+  },
+  {
+   "name": "CAVQ",
+   "joint_configurations": 3888,
+   "heavy_atoms": 28,
+   "tabulated": true,
+   "rates_and_starts": 0.593,
+   "dynamics": 1.149,
+   "atoms": 1.031,
+   "total": 2.773
+  },
+  {
+   "name": "CCVH",
+   "joint_configurations": 7776,
+   "heavy_atoms": 30,
+   "tabulated": true,
+   "rates_and_starts": 1.194,
+   "dynamics": 0.933,
+   "atoms": 1.089,
+   "total": 3.216
+  },
+  {
+   "name": "CIPQ",
+   "joint_configurations": 23328,
+   "heavy_atoms": 31,
+   "tabulated": true,
+   "rates_and_starts": 3.959,
+   "dynamics": 1.443,
+   "atoms": 2.972,
+   "total": 8.374
+  },
+  {
+   "name": "CVNR",
+   "joint_configurations": 34992,
+   "heavy_atoms": 33,
+   "tabulated": true,
+   "rates_and_starts": 6.075,
+   "dynamics": 1.164,
+   "atoms": 3.46,
+   "total": 10.699
+  },
+  {
+   "name": "DEMT",
+   "joint_configurations": 104976,
+   "heavy_atoms": 33,
+   "tabulated": true,
+   "rates_and_starts": 13.989,
+   "dynamics": 0.616,
+   "atoms": 1.669,
+   "total": 16.274
+  },
+  {
+   "name": "DMTL",
+   "joint_configurations": 104976,
+   "heavy_atoms": 32,
+   "tabulated": true,
+   "rates_and_starts": 8.549,
+   "dynamics": 0.615,
+   "atoms": 1.318,
+   "total": 10.482
+  },
+  {
+   "name": "EDWY",
+   "joint_configurations": 23328,
+   "heavy_atoms": 44,
+   "tabulated": true,
+   "rates_and_starts": 1.854,
+   "dynamics": 0.447,
+   "atoms": 6.755,
+   "total": 9.056
+  },
+  {
+   "name": "EHQW",
+   "joint_configurations": 104976,
+   "heavy_atoms": 43,
+   "tabulated": true,
+   "rates_and_starts": 8.702,
+   "dynamics": 0.533,
+   "atoms": 5.746,
+   "total": 14.98
+  },
+  {
+   "name": "FESD",
+   "joint_configurations": 11664,
+   "heavy_atoms": 35,
+   "tabulated": true,
+   "rates_and_starts": 0.9,
+   "dynamics": 0.419,
+   "atoms": 2.915,
+   "total": 4.234
+  },
+  {
+   "name": "FYYY",
+   "joint_configurations": 5184,
+   "heavy_atoms": 48,
+   "tabulated": true,
+   "rates_and_starts": 0.418,
+   "dynamics": 0.269,
+   "atoms": 9.434,
+   "total": 10.12
+  },
+  {
+   "name": "GCDE",
+   "joint_configurations": 1944,
+   "heavy_atoms": 28,
+   "tabulated": true,
+   "rates_and_starts": 0.14,
+   "dynamics": 0.436,
+   "atoms": 1.119,
+   "total": 1.695
+  },
+  {
+   "name": "GDTI",
+   "joint_configurations": 1944,
+   "heavy_atoms": 28,
+   "tabulated": true,
+   "rates_and_starts": 0.141,
+   "dynamics": 0.395,
+   "atoms": 0.961,
+   "total": 1.497
+  },
+  {
+   "name": "GGRS",
+   "joint_configurations": 3645,
+   "heavy_atoms": 26,
+   "tabulated": true,
+   "rates_and_starts": 0.263,
+   "dynamics": 0.614,
+   "atoms": 0.992,
+   "total": 1.869
+  },
+  {
+   "name": "GNFL",
+   "joint_configurations": 1944,
+   "heavy_atoms": 32,
+   "tabulated": true,
+   "rates_and_starts": 0.144,
+   "dynamics": 0.394,
+   "atoms": 1.258,
+   "total": 1.796
+  },
+  {
+   "name": "HEAV",
+   "joint_configurations": 5832,
+   "heavy_atoms": 32,
+   "tabulated": true,
+   "rates_and_starts": 0.415,
+   "dynamics": 0.459,
+   "atoms": 1.858,
+   "total": 2.733
+  },
+  {
+   "name": "HQVS",
+   "joint_configurations": 34992,
+   "heavy_atoms": 33,
+   "tabulated": true,
+   "rates_and_starts": 2.721,
+   "dynamics": 0.589,
+   "atoms": 1.781,
+   "total": 5.091
+  },
+  {
+   "name": "HYGW",
+   "joint_configurations": 8640,
+   "heavy_atoms": 41,
+   "tabulated": true,
+   "rates_and_starts": 0.648,
+   "dynamics": 0.472,
+   "atoms": 3.473,
+   "total": 4.593
+  },
+  {
+   "name": "ISDT",
+   "joint_configurations": 15552,
+   "heavy_atoms": 30,
+   "tabulated": true,
+   "rates_and_starts": 1.185,
+   "dynamics": 0.365,
+   "atoms": 1.142,
+   "total": 2.692
+  },
+  {
+   "name": "ITYL",
+   "joint_configurations": 34992,
+   "heavy_atoms": 36,
+   "tabulated": true,
+   "rates_and_starts": 2.748,
+   "dynamics": 0.421,
+   "atoms": 1.84,
+   "total": 5.008
+  },
+  {
+   "name": "KHAP",
+   "joint_configurations": 34992,
+   "heavy_atoms": 32,
+   "tabulated": true,
+   "rates_and_starts": 2.729,
+   "dynamics": 0.666,
+   "atoms": 3.862,
+   "total": 7.258
+  },
+  {
+   "name": "KHGM",
+   "joint_configurations": 787320,
+   "heavy_atoms": 32,
+   "tabulated": true,
+   "rates_and_starts": 70.083,
+   "dynamics": 0.949,
+   "atoms": 1.673,
+   "total": 72.704
+  },
+  {
+   "name": "KKAP",
+   "joint_configurations": 472392,
+   "heavy_atoms": 31,
+   "tabulated": true,
+   "rates_and_starts": 41.245,
+   "dynamics": 0.847,
+   "atoms": 3.335,
+   "total": 45.427
+  },
+  {
+   "name": "KLLR",
+   "joint_configurations": 11337408,
+   "heavy_atoms": 37,
+   "tabulated": false,
+   "rates_and_starts": 0.234,
+   "dynamics": 50.727,
+   "atoms": 2.459,
+   "total": 53.42
+  },
+  {
+   "name": "KRWN",
+   "joint_configurations": 1417176,
+   "heavy_atoms": 43,
+   "tabulated": false,
+   "rates_and_starts": 0.214,
+   "dynamics": 47.052,
+   "atoms": 7.456,
+   "total": 54.723
+  },
+  {
+   "name": "LFTE",
+   "joint_configurations": 34992,
+   "heavy_atoms": 36,
+   "tabulated": true,
+   "rates_and_starts": 2.765,
+   "dynamics": 0.518,
+   "atoms": 2.426,
+   "total": 5.709
+  },
+  {
+   "name": "NCFG",
+   "joint_configurations": 1944,
+   "heavy_atoms": 30,
+   "tabulated": true,
+   "rates_and_starts": 0.138,
+   "dynamics": 0.572,
+   "atoms": 1.081,
+   "total": 1.791
+  },
+  {
+   "name": "NEVI",
+   "joint_configurations": 34992,
+   "heavy_atoms": 33,
+   "tabulated": true,
+   "rates_and_starts": 2.76,
+   "dynamics": 0.444,
+   "atoms": 1.425,
+   "total": 4.629
+  },
+  {
+   "name": "PMWS",
+   "joint_configurations": 139968,
+   "heavy_atoms": 36,
+   "tabulated": true,
+   "rates_and_starts": 11.554,
+   "dynamics": 0.721,
+   "atoms": 3.986,
+   "total": 16.26
+  },
+  {
+   "name": "PQIF",
+   "joint_configurations": 34992,
+   "heavy_atoms": 36,
+   "tabulated": true,
+   "rates_and_starts": 2.801,
+   "dynamics": 0.596,
+   "atoms": 3.858,
+   "total": 7.255
+  },
+  {
+   "name": "QAKR",
+   "joint_configurations": 708588,
+   "heavy_atoms": 35,
+   "tabulated": true,
+   "rates_and_starts": 68.122,
+   "dynamics": 0.793,
+   "atoms": 2.253,
+   "total": 71.168
+  },
+  {
+   "name": "QWNL",
+   "joint_configurations": 52488,
+   "heavy_atoms": 40,
+   "tabulated": true,
+   "rates_and_starts": 4.363,
+   "dynamics": 0.493,
+   "atoms": 4.073,
+   "total": 8.928
+  },
+  {
+   "name": "RLMM",
+   "joint_configurations": 11337408,
+   "heavy_atoms": 36,
+   "tabulated": false,
+   "rates_and_starts": 0.229,
+   "dynamics": 51.536,
+   "atoms": 3.176,
+   "total": 54.94
+  },
+  {
+   "name": "SHKS",
+   "joint_configurations": 236196,
+   "heavy_atoms": 32,
+   "tabulated": true,
+   "rates_and_starts": 19.797,
+   "dynamics": 0.63,
+   "atoms": 1.566,
+   "total": 21.992
+  },
+  {
+   "name": "SVND",
+   "joint_configurations": 3888,
+   "heavy_atoms": 30,
+   "tabulated": true,
+   "rates_and_starts": 0.302,
+   "dynamics": 0.35,
+   "atoms": 1.292,
+   "total": 1.944
+  },
+  {
+   "name": "TAPF",
+   "joint_configurations": 864,
+   "heavy_atoms": 31,
+   "tabulated": true,
+   "rates_and_starts": 0.081,
+   "dynamics": 0.605,
+   "atoms": 2.709,
+   "total": 3.395
+  },
+  {
+   "name": "TMWC",
+   "joint_configurations": 69984,
+   "heavy_atoms": 36,
+   "tabulated": true,
+   "rates_and_starts": 5.529,
+   "dynamics": 0.539,
+   "atoms": 1.896,
+   "total": 7.964
+  },
+  {
+   "name": "VPFY",
+   "joint_configurations": 3456,
+   "heavy_atoms": 38,
+   "tabulated": true,
+   "rates_and_starts": 0.267,
+   "dynamics": 0.599,
+   "atoms": 4.989,
+   "total": 5.855
+  },
+  {
+   "name": "WNMA",
+   "joint_configurations": 23328,
+   "heavy_atoms": 36,
+   "tabulated": true,
+   "rates_and_starts": 1.826,
+   "dynamics": 0.543,
+   "atoms": 3.819,
+   "total": 6.189
+  },
+  {
+   "name": "YRIQ",
+   "joint_configurations": 236196,
+   "heavy_atoms": 41,
+   "tabulated": true,
+   "rates_and_starts": 20.854,
+   "dynamics": 0.577,
+   "atoms": 5.336,
+   "total": 26.767
+  }
+ ]
+}

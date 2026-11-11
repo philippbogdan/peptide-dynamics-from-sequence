@@ -1,0 +1,33 @@
+device NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition; 1500 peptides
+step 0 train 2.16224 val 2.65889 t 10s
+step 200 train 2.42582 val 2.50442 t 510s
+step 400 train 2.41524 val 2.46971 t 990s
+step 600 train 2.23513 val 2.45610 t 1479s
+step 800 train 1.99938 val 2.44483 t 1951s
+step 1000 train 2.55554 val 2.44313 t 2440s
+step 1200 train 2.19889 val 2.43683 t 2943s
+step 1400 train 2.03123 val 2.43369 t 3455s
+step 1600 train 2.15829 val 2.43241 t 3946s
+step 1800 train 1.97565 val 2.42932 t 4425s
+step 2000 train 2.43537 val 2.42816 t 4924s
+step 2200 train 2.23824 val 2.42630 t 5409s
+step 2400 train 1.87832 val 2.42520 t 5904s
+step 2600 train 2.76006 val 2.42436 t 6392s
+step 2800 train 2.02634 val 2.42414 t 6862s
+step 3000 train 2.49742 val 2.42301 t 7334s
+step 3200 train 2.10751 val 2.42243 t 7797s
+step 3400 train 2.27242 val 2.42158 t 8219s
+step 3600 train 2.13060 val 2.42173 t 8644s
+step 3800 train 1.99027 val 2.42072 t 9066s
+step 4000 train 2.27236 val 2.42074 t 9491s
+step 4200 train 2.25914 val 2.42046 t 10013s
+step 4400 train 2.11741 val 2.42004 t 10399s
+step 4600 train 2.50820 val 2.41967 t 10719s
+step 4800 train 2.51723 val 2.41966 t 11032s
+step 5000 train 2.34886 val 2.41957 t 11347s
+step 5200 train 2.03786 val 2.41943 t 11665s
+step 5400 train 2.00666 val 2.41941 t 11978s
+step 5600 train 1.73978 val 2.41928 t 12291s
+step 5800 train 2.33428 val 2.41918 t 12613s
+step 5999 train 2.34395 val 2.41920 t 12924s
+done 12924 s; W 2 D 64 H 192

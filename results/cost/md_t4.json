@@ -1,0 +1,355 @@
+{
+ "card": "Tesla T4",
+ "engine": "OpenMM 8.3.1, CUDA platform, mixed precision",
+ "what": "tools/time_md.py: 1, 4, 8, 12 and 16 copies of one simulation run at once on one card under the NVIDIA multi-process service, 40 s each after minimisation and 5,000 steps; aggregate = the sum over the copies; the node gave the job 12 CPU cores",
+ "protocols": {
+  "corpus": "amber14 + OBC1 implicit solvent, 310 K, no constraints, LangevinMiddle 0.3/ps, 1 fs steps (the protocol of ManyPeptidesMD)",
+  "hmr": "the same with bonds to hydrogen constrained, hydrogen masses of 4 amu and 4 fs steps (passage times not checked)"
+ },
+ "runs": [
+  {
+   "peptide": "HEAV",
+   "protocol": "corpus",
+   "step_fs": 1.0,
+   "concurrent": 1,
+   "per_simulation_ns_per_day": [
+    973
+   ],
+   "aggregate_ns_per_day": 973
+  },
+  {
+   "peptide": "HEAV",
+   "protocol": "corpus",
+   "step_fs": 1.0,
+   "concurrent": 4,
+   "per_simulation_ns_per_day": [
+    717,
+    717,
+    717,
+    717
+   ],
+   "aggregate_ns_per_day": 2867
+  },
+  {
+   "peptide": "HEAV",
+   "protocol": "corpus",
+   "step_fs": 1.0,
+   "concurrent": 8,
+   "per_simulation_ns_per_day": [
+    466,
+    466,
+    467,
+    456,
+    456,
+    456,
+    465,
+    456
+   ],
+   "aggregate_ns_per_day": 3689
+  },
+  {
+   "peptide": "HEAV",
+   "protocol": "corpus",
+   "step_fs": 1.0,
+   "concurrent": 12,
+   "per_simulation_ns_per_day": [
+    274,
+    274,
+    274,
+    274,
+    274,
+    264,
+    274,
+    264,
+    274,
+    275,
+    274,
+    274
+   ],
+   "aggregate_ns_per_day": 3269
+  },
+  {
+   "peptide": "HEAV",
+   "protocol": "corpus",
+   "step_fs": 1.0,
+   "concurrent": 16,
+   "per_simulation_ns_per_day": [
+    256,
+    257,
+    262,
+    106,
+    107,
+    139,
+    263,
+    262,
+    262,
+    258,
+    129,
+    262,
+    108,
+    259,
+    107,
+    257
+   ],
+   "aggregate_ns_per_day": 3292
+  },
+  {
+   "peptide": "HEAV",
+   "protocol": "hmr",
+   "step_fs": 4.0,
+   "concurrent": 1,
+   "per_simulation_ns_per_day": [
+    2822
+   ],
+   "aggregate_ns_per_day": 2822
+  },
+  {
+   "peptide": "HEAV",
+   "protocol": "hmr",
+   "step_fs": 4.0,
+   "concurrent": 4,
+   "per_simulation_ns_per_day": [
+    2233,
+    2233,
+    2233,
+    2233
+   ],
+   "aggregate_ns_per_day": 8933
+  },
+  {
+   "peptide": "HEAV",
+   "protocol": "hmr",
+   "step_fs": 4.0,
+   "concurrent": 8,
+   "per_simulation_ns_per_day": [
+    1504,
+    1504,
+    1487,
+    1486,
+    1488,
+    1501,
+    1504,
+    1488
+   ],
+   "aggregate_ns_per_day": 11962
+  },
+  {
+   "peptide": "HEAV",
+   "protocol": "hmr",
+   "step_fs": 4.0,
+   "concurrent": 12,
+   "per_simulation_ns_per_day": [
+    976,
+    902,
+    1015,
+    975,
+    902,
+    975,
+    977,
+    975,
+    975,
+    1015,
+    976,
+    1014
+   ],
+   "aggregate_ns_per_day": 11678
+  },
+  {
+   "peptide": "HEAV",
+   "protocol": "hmr",
+   "step_fs": 4.0,
+   "concurrent": 16,
+   "per_simulation_ns_per_day": [
+    513,
+    637,
+    634,
+    451,
+    914,
+    959,
+    739,
+    751,
+    903,
+    787,
+    763,
+    779,
+    926,
+    988,
+    509,
+    496
+   ],
+   "aggregate_ns_per_day": 11749
+  },
+  {
+   "peptide": "CIPQ",
+   "protocol": "corpus",
+   "step_fs": 1.0,
+   "concurrent": 1,
+   "per_simulation_ns_per_day": [
+    975
+   ],
+   "aggregate_ns_per_day": 975
+  },
+  {
+   "peptide": "CIPQ",
+   "protocol": "corpus",
+   "step_fs": 1.0,
+   "concurrent": 4,
+   "per_simulation_ns_per_day": [
+    723,
+    723,
+    723,
+    723
+   ],
+   "aggregate_ns_per_day": 2892
+  },
+  {
+   "peptide": "CIPQ",
+   "protocol": "corpus",
+   "step_fs": 1.0,
+   "concurrent": 8,
+   "per_simulation_ns_per_day": [
+    505,
+    505,
+    505,
+    512,
+    494,
+    501,
+    494,
+    494
+   ],
+   "aggregate_ns_per_day": 4011
+  },
+  {
+   "peptide": "CIPQ",
+   "protocol": "corpus",
+   "step_fs": 1.0,
+   "concurrent": 12,
+   "per_simulation_ns_per_day": [
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    263,
+    264,
+    263,
+    264,
+    264,
+    264
+   ],
+   "aggregate_ns_per_day": 3166
+  },
+  {
+   "peptide": "CIPQ",
+   "protocol": "corpus",
+   "step_fs": 1.0,
+   "concurrent": 16,
+   "per_simulation_ns_per_day": [
+    244,
+    282,
+    230,
+    182,
+    243,
+    310,
+    245,
+    305,
+    241,
+    161,
+    268,
+    256,
+    172,
+    305,
+    150,
+    97
+   ],
+   "aggregate_ns_per_day": 3690
+  },
+  {
+   "peptide": "CIPQ",
+   "protocol": "hmr",
+   "step_fs": 4.0,
+   "concurrent": 1,
+   "per_simulation_ns_per_day": [
+    2906
+   ],
+   "aggregate_ns_per_day": 2906
+  },
+  {
+   "peptide": "CIPQ",
+   "protocol": "hmr",
+   "step_fs": 4.0,
+   "concurrent": 4,
+   "per_simulation_ns_per_day": [
+    2242,
+    2243,
+    2243,
+    2240
+   ],
+   "aggregate_ns_per_day": 8969
+  },
+  {
+   "peptide": "CIPQ",
+   "protocol": "hmr",
+   "step_fs": 4.0,
+   "concurrent": 8,
+   "per_simulation_ns_per_day": [
+    1612,
+    1636,
+    1631,
+    1594,
+    1619,
+    1613,
+    1658,
+    1635
+   ],
+   "aggregate_ns_per_day": 12998
+  },
+  {
+   "peptide": "CIPQ",
+   "protocol": "hmr",
+   "step_fs": 4.0,
+   "concurrent": 12,
+   "per_simulation_ns_per_day": [
+    975,
+    941,
+    943,
+    947,
+    946,
+    943,
+    941,
+    947,
+    946,
+    974,
+    946,
+    946
+   ],
+   "aggregate_ns_per_day": 11395
+  },
+  {
+   "peptide": "CIPQ",
+   "protocol": "hmr",
+   "step_fs": 4.0,
+   "concurrent": 16,
+   "per_simulation_ns_per_day": [
+    891,
+    530,
+    531,
+    855,
+    881,
+    406,
+    970,
+    984,
+    632,
+    880,
+    683,
+    464,
+    876,
+    461,
+    877,
+    811
+   ],
+   "aggregate_ns_per_day": 11734
+  }
+ ]
+}

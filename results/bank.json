@@ -1,0 +1,207 @@
+{
+ "combinations_in_the_bank": 1380,
+ "share_of_frames_that_borrow": 0.0002423592493297587,
+ "largest_share_for_one_peptide": 0.0028,
+ "peptides": [
+  {
+   "name": "ARIP",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "CAVQ",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "CCVH",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "CIPQ",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "CVNR",
+   "frames": 100000,
+   "frames_that_borrow": 4
+  },
+  {
+   "name": "DEMT",
+   "frames": 100000,
+   "frames_that_borrow": 29
+  },
+  {
+   "name": "DMTL",
+   "frames": 100000,
+   "frames_that_borrow": 42
+  },
+  {
+   "name": "EDWY",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "EHQW",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "FESD",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "FYYY",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "GCDE",
+   "frames": 100000,
+   "frames_that_borrow": 4
+  },
+  {
+   "name": "GDTI",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "GGRS",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "GNFL",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "HEAV",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "HQVS",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "HYGW",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "ISDT",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "ITYL",
+   "frames": 100000,
+   "frames_that_borrow": 3
+  },
+  {
+   "name": "KHAP",
+   "frames": 100000,
+   "frames_that_borrow": 69
+  },
+  {
+   "name": "KHGM",
+   "frames": 100000,
+   "frames_that_borrow": 121
+  },
+  {
+   "name": "KKAP",
+   "frames": 100000,
+   "frames_that_borrow": 122
+  },
+  {
+   "name": "KLLR",
+   "frames": 10000,
+   "frames_that_borrow": 16
+  },
+  {
+   "name": "KRWN",
+   "frames": 10000,
+   "frames_that_borrow": 7
+  },
+  {
+   "name": "LFTE",
+   "frames": 100000,
+   "frames_that_borrow": 4
+  },
+  {
+   "name": "NCFG",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "NEVI",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "PMWS",
+   "frames": 100000,
+   "frames_that_borrow": 26
+  },
+  {
+   "name": "PQIF",
+   "frames": 100000,
+   "frames_that_borrow": 41
+  },
+  {
+   "name": "QAKR",
+   "frames": 100000,
+   "frames_that_borrow": 129
+  },
+  {
+   "name": "QWNL",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "RLMM",
+   "frames": 10000,
+   "frames_that_borrow": 28
+  },
+  {
+   "name": "SHKS",
+   "frames": 100000,
+   "frames_that_borrow": 117
+  },
+  {
+   "name": "SVND",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "TAPF",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "TMWC",
+   "frames": 100000,
+   "frames_that_borrow": 60
+  },
+  {
+   "name": "VPFY",
+   "frames": 100000,
+   "frames_that_borrow": 0
+  },
+  {
+   "name": "WNMA",
+   "frames": 100000,
+   "frames_that_borrow": 21
+  },
+  {
+   "name": "YRIQ",
+   "frames": 100000,
+   "frames_that_borrow": 61
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+numpy>=2.0         # all that generate.py and evaluate.py need
+
+# figures, tests
+matplotlib
+pillow
+pytest
+
+# finding states in raw MD (tools/make_reference.py)
+deeptime
+
+# training (train/)
+torch
+mdtraj
+scipy

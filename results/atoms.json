@@ -1,0 +1,50 @@
+{
+ "min_distance": 2.2,
+ "peptides": [
+  {
+   "name": "ARIP",
+   "frames": 5000,
+   "rmsd_median": 0.5651045351085244,
+   "rmsd_95": 0.7149948877655259,
+   "md_closest_median": 2.931609034538269,
+   "md_overlapping": 0.0,
+   "rebuilt_overlapping": 0.1168
+  },
+  {
+   "name": "EHQW",
+   "frames": 5000,
+   "rmsd_median": 0.542754050178434,
+   "rmsd_95": 0.7160433941530812,
+   "md_closest_median": 2.955774664878845,
+   "md_overlapping": 0.0,
+   "rebuilt_overlapping": 0.1082
+  },
+  {
+   "name": "GCDE",
+   "frames": 5000,
+   "rmsd_median": 0.5054407489720797,
+   "rmsd_95": 0.691869455225201,
+   "md_closest_median": 2.9961661100387573,
+   "md_overlapping": 0.0,
+   "rebuilt_overlapping": 0.0246
+  },
+  {
+   "name": "HEAV",
+   "frames": 5000,
+   "rmsd_median": 0.5578011668641782,
+   "rmsd_95": 0.7223474260721173,
+   "md_closest_median": 3.002922534942627,
+   "md_overlapping": 0.0,
+   "rebuilt_overlapping": 0.0466
+  },
+  {
+   "name": "WNMA",
+   "frames": 5000,
+   "rmsd_median": 0.5483513666025182,
+   "rmsd_95": 0.703849190470213,
+   "md_closest_median": 2.9890737533569336,
+   "md_overlapping": 0.0,
+   "rebuilt_overlapping": 0.0556
+  }
+ ]
+}

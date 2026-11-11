@@ -1,0 +1,344 @@
+{
+ "card": "Tesla T4",
+ "torch": "2.15.0+cu132",
+ "peptides": [
+  {
+   "name": "ARIP",
+   "sites": 12,
+   "1000 ns": {
+    "dynamics_s": 7.341404676437378,
+    "atoms_s": 12.720916986465454,
+    "total_s": 20.062321662902832,
+    "gpu_s_per_ns": 0.02006232166290283
+   },
+   "2490 ns": {
+    "dynamics_s": 9.486896276473999,
+    "atoms_s": 28.667911767959595,
+    "total_s": 38.154808044433594,
+    "gpu_s_per_ns": 0.015323216082101845
+   },
+   "largest_population_difference_from_numpy_chain": 0.026558232931726877
+  },
+  {
+   "name": "CCVH",
+   "sites": 9,
+   "1000 ns": {
+    "dynamics_s": 4.978247165679932,
+    "atoms_s": 3.542346954345703,
+    "total_s": 8.520594120025635,
+    "gpu_s_per_ns": 0.008520594120025635
+   },
+   "2490 ns": {
+    "dynamics_s": 7.78345513343811,
+    "atoms_s": 8.582565546035767,
+    "total_s": 16.366020679473877,
+    "gpu_s_per_ns": 0.006572699068061798
+   },
+   "largest_population_difference_from_numpy_chain": 0.014674698795180685
+  },
+  {
+   "name": "CIPQ",
+   "sites": 12,
+   "1000 ns": {
+    "dynamics_s": 6.176644563674927,
+    "atoms_s": 9.06198000907898,
+    "total_s": 15.238624572753906,
+    "gpu_s_per_ns": 0.015238624572753906
+   },
+   "2490 ns": {
+    "dynamics_s": 9.815935373306274,
+    "atoms_s": 23.2163987159729,
+    "total_s": 33.032334089279175,
+    "gpu_s_per_ns": 0.013265997626216537
+   },
+   "largest_population_difference_from_numpy_chain": 0.04046987951807235
+  },
+  {
+   "name": "CVNR",
+   "sites": 12,
+   "1000 ns": {
+    "dynamics_s": 5.832254886627197,
+    "atoms_s": 5.124226093292236,
+    "total_s": 10.956480979919434,
+    "gpu_s_per_ns": 0.010956480979919433
+   },
+   "2490 ns": {
+    "dynamics_s": 9.561333417892456,
+    "atoms_s": 12.851377487182617,
+    "total_s": 22.412710905075073,
+    "gpu_s_per_ns": 0.00900108871689762
+   },
+   "largest_population_difference_from_numpy_chain": 0.01853012048192773
+  },
+  {
+   "name": "DMTL",
+   "sites": 12,
+   "1000 ns": {
+    "dynamics_s": 6.123878717422485,
+    "atoms_s": 4.084257364273071,
+    "total_s": 10.208136081695557,
+    "gpu_s_per_ns": 0.010208136081695556
+   },
+   "2490 ns": {
+    "dynamics_s": 9.874444723129272,
+    "atoms_s": 10.249584436416626,
+    "total_s": 20.1240291595459,
+    "gpu_s_per_ns": 0.008081939421504376
+   },
+   "largest_population_difference_from_numpy_chain": 0.01150200803212853
+  },
+  {
+   "name": "FESD",
+   "sites": 12,
+   "1000 ns": {
+    "dynamics_s": 5.53907585144043,
+    "atoms_s": 8.964565753936768,
+    "total_s": 14.503641605377197,
+    "gpu_s_per_ns": 0.014503641605377197
+   },
+   "2490 ns": {
+    "dynamics_s": 9.312182426452637,
+    "atoms_s": 22.5403892993927,
+    "total_s": 31.852571725845337,
+    "gpu_s_per_ns": 0.012792197480259171
+   },
+   "largest_population_difference_from_numpy_chain": 0.024779116465863463
+  },
+  {
+   "name": "GCDE",
+   "sites": 10,
+   "1000 ns": {
+    "dynamics_s": 4.556267023086548,
+    "atoms_s": 3.3712048530578613,
+    "total_s": 7.927471876144409,
+    "gpu_s_per_ns": 0.007927471876144409
+   },
+   "2490 ns": {
+    "dynamics_s": 7.837632656097412,
+    "atoms_s": 8.440265893936157,
+    "total_s": 16.27789855003357,
+    "gpu_s_per_ns": 0.006537308654631956
+   },
+   "largest_population_difference_from_numpy_chain": 0.014987951807228922
+  },
+  {
+   "name": "GGRS",
+   "sites": 9,
+   "1000 ns": {
+    "dynamics_s": 4.43238377571106,
+    "atoms_s": 3.8121306896209717,
+    "total_s": 8.244514465332031,
+    "gpu_s_per_ns": 0.008244514465332031
+   },
+   "2490 ns": {
+    "dynamics_s": 8.248157024383545,
+    "atoms_s": 9.594633340835571,
+    "total_s": 17.842790365219116,
+    "gpu_s_per_ns": 0.007165779263140207
+   },
+   "largest_population_difference_from_numpy_chain": 0.013180722891566299
+  },
+  {
+   "name": "GNFL",
+   "sites": 10,
+   "1000 ns": {
+    "dynamics_s": 5.560493230819702,
+    "atoms_s": 5.12851619720459,
+    "total_s": 10.689009428024292,
+    "gpu_s_per_ns": 0.010689009428024292
+   },
+   "2490 ns": {
+    "dynamics_s": 8.748365879058838,
+    "atoms_s": 13.106260299682617,
+    "total_s": 21.854626178741455,
+    "gpu_s_per_ns": 0.008776958304715443
+   },
+   "largest_population_difference_from_numpy_chain": 0.020028112449799185
+  },
+  {
+   "name": "HEAV",
+   "sites": 10,
+   "1000 ns": {
+    "dynamics_s": 6.23531174659729,
+    "atoms_s": 7.2062766551971436,
+    "total_s": 13.441588401794434,
+    "gpu_s_per_ns": 0.013441588401794434
+   },
+   "2490 ns": {
+    "dynamics_s": 9.469977140426636,
+    "atoms_s": 17.258098602294922,
+    "total_s": 26.728075742721558,
+    "gpu_s_per_ns": 0.010734166964948416
+   },
+   "largest_population_difference_from_numpy_chain": 0.031582329317269064
+  },
+  {
+   "name": "KKAP",
+   "sites": 14,
+   "1000 ns": {
+    "dynamics_s": 7.05928635597229,
+    "atoms_s": 9.9889976978302,
+    "total_s": 17.04828405380249,
+    "gpu_s_per_ns": 0.01704828405380249
+   },
+   "2490 ns": {
+    "dynamics_s": 11.205244541168213,
+    "atoms_s": 24.825167417526245,
+    "total_s": 36.03041195869446,
+    "gpu_s_per_ns": 0.014470044963331107
+   }
+  },
+  {
+   "name": "LFTE",
+   "sites": 12,
+   "1000 ns": {
+    "dynamics_s": 5.878681182861328,
+    "atoms_s": 7.424917459487915,
+    "total_s": 13.303598642349243,
+    "gpu_s_per_ns": 0.013303598642349243
+   },
+   "2490 ns": {
+    "dynamics_s": 9.604104280471802,
+    "atoms_s": 18.646008729934692,
+    "total_s": 28.250113010406494,
+    "gpu_s_per_ns": 0.011345426911809836
+   },
+   "largest_population_difference_from_numpy_chain": 0.02342570281124501
+  },
+  {
+   "name": "NCFG",
+   "sites": 9,
+   "1000 ns": {
+    "dynamics_s": 4.345239162445068,
+    "atoms_s": 3.214881658554077,
+    "total_s": 7.5601208209991455,
+    "gpu_s_per_ns": 0.0075601208209991454
+   },
+   "2490 ns": {
+    "dynamics_s": 7.243776798248291,
+    "atoms_s": 8.413665771484375,
+    "total_s": 15.657442569732666,
+    "gpu_s_per_ns": 0.006288129546077376
+   },
+   "largest_population_difference_from_numpy_chain": 0.01448995983935743
+  },
+  {
+   "name": "PMWS",
+   "sites": 12,
+   "1000 ns": {
+    "dynamics_s": 6.826504468917847,
+    "atoms_s": 11.633188962936401,
+    "total_s": 18.459693431854248,
+    "gpu_s_per_ns": 0.01845969343185425
+   },
+   "2490 ns": {
+    "dynamics_s": 9.985170841217041,
+    "atoms_s": 29.770609617233276,
+    "total_s": 39.75578045845032,
+    "gpu_s_per_ns": 0.015966176890943904
+   },
+   "largest_population_difference_from_numpy_chain": 0.023558232931726902
+  },
+  {
+   "name": "QAKR",
+   "sites": 15,
+   "1000 ns": {
+    "dynamics_s": 7.071763515472412,
+    "atoms_s": 6.189201831817627,
+    "total_s": 13.260965347290039,
+    "gpu_s_per_ns": 0.013260965347290038
+   },
+   "2490 ns": {
+    "dynamics_s": 11.721518516540527,
+    "atoms_s": 15.01777958869934,
+    "total_s": 26.739298105239868,
+    "gpu_s_per_ns": 0.010738673937847337
+   }
+  },
+  {
+   "name": "SHKS",
+   "sites": 12,
+   "1000 ns": {
+    "dynamics_s": 6.341284990310669,
+    "atoms_s": 4.370774030685425,
+    "total_s": 10.712059020996094,
+    "gpu_s_per_ns": 0.010712059020996093
+   },
+   "2490 ns": {
+    "dynamics_s": 9.918805599212646,
+    "atoms_s": 10.923078060150146,
+    "total_s": 20.841883659362793,
+    "gpu_s_per_ns": 0.00837023440135052
+   },
+   "largest_population_difference_from_numpy_chain": 0.016108433734939753
+  },
+  {
+   "name": "SVND",
+   "sites": 10,
+   "1000 ns": {
+    "dynamics_s": 4.768146276473999,
+    "atoms_s": 3.7662651538848877,
+    "total_s": 8.534411430358887,
+    "gpu_s_per_ns": 0.008534411430358886
+   },
+   "2490 ns": {
+    "dynamics_s": 7.969151258468628,
+    "atoms_s": 11.237396955490112,
+    "total_s": 19.20654821395874,
+    "gpu_s_per_ns": 0.007713473178296683
+   },
+   "largest_population_difference_from_numpy_chain": 0.014433734939759024
+  },
+  {
+   "name": "TAPF",
+   "sites": 9,
+   "1000 ns": {
+    "dynamics_s": 5.632562875747681,
+    "atoms_s": 10.929198265075684,
+    "total_s": 16.561761140823364,
+    "gpu_s_per_ns": 0.016561761140823365
+   },
+   "2490 ns": {
+    "dynamics_s": 8.464831113815308,
+    "atoms_s": 27.52207899093628,
+    "total_s": 35.98691010475159,
+    "gpu_s_per_ns": 0.014452574339257665
+   },
+   "largest_population_difference_from_numpy_chain": 0.025108433734939754
+  },
+  {
+   "name": "VPFY",
+   "sites": 11,
+   "1000 ns": {
+    "dynamics_s": 6.664850234985352,
+    "atoms_s": 18.735897064208984,
+    "total_s": 25.400747299194336,
+    "gpu_s_per_ns": 0.025400747299194337
+   },
+   "2490 ns": {
+    "dynamics_s": 10.333796977996826,
+    "atoms_s": 45.13128685951233,
+    "total_s": 55.465083837509155,
+    "gpu_s_per_ns": 0.022275134071288817
+   },
+   "largest_population_difference_from_numpy_chain": 0.02614056224899597
+  },
+  {
+   "name": "WNMA",
+   "sites": 11,
+   "1000 ns": {
+    "dynamics_s": 6.934264183044434,
+    "atoms_s": 15.570433139801025,
+    "total_s": 22.50469732284546,
+    "gpu_s_per_ns": 0.02250469732284546
+   },
+   "2490 ns": {
+    "dynamics_s": 10.39948320388794,
+    "atoms_s": 43.136460065841675,
+    "total_s": 53.535943269729614,
+    "gpu_s_per_ns": 0.021500378823184584
+   },
+   "largest_population_difference_from_numpy_chain": 0.039951807228915615
+  }
+ ]
+}
